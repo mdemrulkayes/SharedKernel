@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>Core.SharedKernel.Template</id>
+    <id>Mek.Core.SharedKernel</id>
     <version>1.0.0</version>
     <authors>MD EMRUL KAYES</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

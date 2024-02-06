@@ -1,6 +1,6 @@
 <Project>
 	<PropertyGroup>
-		<PackageId>Core.SharedKernel.Template</PackageId>
+		<PackageId>Mek.Core.SharedKernel</PackageId>
 		<PackageVersion>1.0.0</PackageVersion>
 		<Title>Shared Kernel Templates</Title>
 		<Authors>MD EMRUL KAYES</Authors>

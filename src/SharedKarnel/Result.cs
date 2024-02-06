@@ -1,4 +1,4 @@
-﻿namespace SharedKarnel;
+﻿namespace SharedKernel;
 public sealed class Result<TValue> : IBaseResult
 {
     public bool IsSuccess { get; }

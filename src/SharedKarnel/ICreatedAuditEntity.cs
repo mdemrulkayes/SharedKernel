@@ -1,4 +1,4 @@
-﻿namespace SharedKarnel;
+﻿namespace SharedKernel;
 
 internal interface ICreatedAuditEntity<TKey>
     where TKey : struct

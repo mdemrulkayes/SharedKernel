@@ -1,0 +1,18 @@
+<Project>
+	<PropertyGroup>
+		<PackageId>Core.SharedKernel.Template</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
+		<Title>Shared Kernel Templates</Title>
+		<Authors>MD EMRUL KAYES</Authors>
+		<Description>Template to build shared kernel</Description>
+		<PackageTags>dotnet-new;templates;</PackageTags>
+		<PackageType>Template</PackageType>
+		<TargetFramework>net8.0</TargetFramework>
+		<IncludeContentInPack>true</IncludeContentInPack>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<ContentTargetFolders>content</ContentTargetFolders>
+		<NoWarn>$(NoWarn);NU5128</NoWarn>
+		<NoDefaultExcludes>true</NoDefaultExcludes>
+		<Copyright>MIT</Copyright>
+	</PropertyGroup>
+</Project>

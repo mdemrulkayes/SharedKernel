@@ -1,4 +1,4 @@
-﻿namespace SharedKarnel;
+﻿namespace SharedKernel;
 public class BaseAuditableEntity<TKey> :
     BaseEntity,
     ICreatedAuditEntity<TKey>,

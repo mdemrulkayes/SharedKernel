@@ -1,4 +1,4 @@
-﻿namespace SharedKarnel;
+﻿namespace SharedKernel;
 public sealed record Error (string ErrorCode, string Message, ErrorType ErrorType)
 {
     public static readonly Error None = new(string.Empty, string.Empty, ErrorType.None);

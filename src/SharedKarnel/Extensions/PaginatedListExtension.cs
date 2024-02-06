@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace SharedKarnel.Extensions;
+namespace SharedKernel.Extensions;
 public static class PaginatedListExtension
 {
     public static Task<PaginatedList<T>> ToPaginatedListAsync<T>(this IQueryable<T> queryable, int pageNumber,

@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace SharedKarnel;
+namespace SharedKernel;
 public interface IRepository<TEntity> : IReadRepository<TEntity>
     where TEntity : BaseEntity
 {

@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace SharedKarnel;
+namespace SharedKernel;
 public interface IReadRepository<TEntity> where TEntity : BaseEntity
 {
     Task<TEntity?> FirstOrDefaultAsync(

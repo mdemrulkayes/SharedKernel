@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "MD EMRUL KAYES",
+  "classifications": [ "SharedKernel", "Class Library", "ASP.NET CORE" ],
+  "identity": "Core.SharedKernel",
+  "name": "The Core Shared Kernel",
+  "shortName": "core-kernel",
+  "sourceName": "Core.SharedKernel",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

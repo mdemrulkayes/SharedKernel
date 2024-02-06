@@ -1,4 +1,4 @@
-﻿namespace SharedKarnel;
+﻿namespace SharedKernel;
 public interface IBaseResult
 {
     public bool IsSuccess { get; }

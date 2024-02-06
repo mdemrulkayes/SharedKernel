@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace SharedKarnel;
+namespace SharedKernel;
 
 public interface ICommand<out TResponse> : IRequest<TResponse>;
 

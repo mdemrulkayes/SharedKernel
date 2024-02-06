@@ -1,2 +1,2 @@
-﻿namespace SharedKarnel;
+﻿namespace SharedKernel;
 public interface IBaseEntity;

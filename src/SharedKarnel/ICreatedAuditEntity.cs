@@ -1,15 +1,15 @@
 ﻿namespace SharedKarnel;
 
-internal interface ICreateAuditEntity<TKey>
+internal interface ICreatedAuditEntity<TKey>
     where TKey : struct
 {
     /// <summary>
     /// Created By property get or set
     /// </summary>
-    TKey CreateBy { get; set; }
+    TKey CreatedBy { get; set; }
 
     /// <summary>
     /// Created Date property get or set
     /// </summary>
-    DateTimeOffset CreateDate { get; set; }
+    DateTimeOffset CreatedDate { get; set; }
 }

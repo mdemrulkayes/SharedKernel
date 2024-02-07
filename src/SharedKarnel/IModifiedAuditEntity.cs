@@ -1,4 +1,4 @@
-﻿namespace SharedKarnel;
+﻿namespace SharedKernel;
 
 internal interface IModifiedAuditEntity<TKey>
     where TKey : struct
@@ -6,10 +6,10 @@ internal interface IModifiedAuditEntity<TKey>
     /// <summary>
     /// Modified by property gets or sets
     /// </summary>
-    TKey? ModifiedBy { get; set; }
+    TKey? UpdatedBy { get; set; }
 
     /// <summary>
     /// Modified Date property gets or sets
     /// </summary>
-    DateTimeOffset? ModifiedDate { get; set; }
+    DateTimeOffset? UpdatedDate { get; set; }
 }

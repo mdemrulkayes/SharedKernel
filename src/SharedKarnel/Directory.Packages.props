@@ -1,0 +1,9 @@
+<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageVersion Include="MediatR" Version="12.2.0" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.1" />
+	</ItemGroup>
+</Project>

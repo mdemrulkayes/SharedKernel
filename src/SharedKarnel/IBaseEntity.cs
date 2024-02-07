@@ -1,2 +1,7 @@
 ﻿namespace SharedKernel;
-public interface IBaseEntity;
+
+public interface IBaseEntity
+{
+    IReadOnlyList<IDomainEvent> GetDomainEvents();
+    void ClearDomainEvents();
+}

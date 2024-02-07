@@ -1,12 +1,9 @@
 ﻿namespace SharedKernel;
-public class BaseAuditableEntity<TKey> :
-    BaseEntity,
-    ICreatedAuditEntity<TKey>,
-    IModifiedAuditEntity<TKey>
-    where TKey : struct
+public class BaseAuditableEntity:
+    BaseEntity
 {
-    public TKey CreatedBy { get; set; }
+    public Guid CreatedBy { get; set; }
     public DateTimeOffset CreatedDate { get; set; }
-    public TKey? UpdatedBy { get; set; }
+    public Guid? UpdatedBy { get; set; }
     public DateTimeOffset? UpdatedDate { get; set; }
 }

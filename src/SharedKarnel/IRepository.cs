@@ -10,6 +10,4 @@ public interface IRepository<TEntity> : IReadRepository<TEntity>
     Task Delete(TEntity entity);
 
     Task Delete(Expression<Func<TEntity, bool>> expression);
-
-    Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 }

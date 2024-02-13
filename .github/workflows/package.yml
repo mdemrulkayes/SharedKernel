@@ -9,20 +9,31 @@ on:
       - 'SharedKernel.nuspec'
   pull_request:
     branches:
-      - '*'          # Run the workflow for all pull requests
-  
-jobs:
-  publish:
-    name: Publish to NuGet.org
+      - '*' # Run the workflow for all pull requests
 
-    runs-on: ubuntu-latest
+jobs:
+  package-build-publish:
+    name: Build the source
+
+    runs-on: [ubuntu-latest]
 
     steps:
-      - uses: actions/checkout@v3
-        name: Checkout code
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
-      - uses: nuget/setup-nuget@v1
-        name: Setup NuGet
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore Dependency
+        run: dotnet restore SharedKernel.sln
+
+      - name: Build application
+        run: dotnet build --configuration Release SharedKernel.sln
+
+      - name: Setup NuGet
+        uses: nuget/setup-nuget@v1
         with:
           nuget-version: '6.x'
 

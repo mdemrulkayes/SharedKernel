@@ -4,7 +4,7 @@
 
 To install this template run the below command:
 <br />
-<code>dotnet new install Mek.Core.SharedKernel::5.2.0</code>
+<code>dotnet new install Mek.Core.SharedKernel::5.3.0</code>
 
 Then check your dotnet templates list using the below command:
 <br />

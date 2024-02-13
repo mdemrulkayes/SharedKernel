@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Mek.Core.SharedKernel</id>
-    <version>5.0.0</version>
+    <version>5.1.0</version>
     <authors>MD EMRUL KAYES</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
@@ -19,7 +19,6 @@
     <readme>README.md</readme>
   <packageTypes>
     <packageType name="Template" />
-    <packageType name="Dependency" />
   </packageTypes>
   </metadata>
   <files>

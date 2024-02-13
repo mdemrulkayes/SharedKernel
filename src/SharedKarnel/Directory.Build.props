@@ -1,7 +1,7 @@
 <Project>
 	<PropertyGroup>
 		<PackageId>Mek.Core.SharedKernel</PackageId>
-		<PackageVersion>5.0.0</PackageVersion>
+		<PackageVersion>5.1.0</PackageVersion>
 		<Title>Shared Kernel Templates</Title>
 		<Authors>MD EMRUL KAYES</Authors>
 		<Description>Template to build shared kernel</Description>

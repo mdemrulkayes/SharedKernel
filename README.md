@@ -1,6 +1,7 @@
 # SharedKernel
 
 [![Package](https://github.com/mdemrulkayes/SharedKarnel/actions/workflows/package.yml/badge.svg)](https://github.com/mdemrulkayes/SharedKarnel/actions/workflows/package.yml)
+[![CodeQL](https://github.com/mdemrulkayes/SharedKernel/actions/workflows/codeql.yml/badge.svg)](https://github.com/mdemrulkayes/SharedKernel/actions/workflows/codeql.yml)
 
 To install this template run the below command:
 <br />
